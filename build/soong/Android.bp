@@ -98,6 +98,10 @@ camera_override_format_from_reserved {
     },
 }
 
+kernel_headers {
+    name: "device_kernel_headers_system",
+}
+
 soong_config_module_type {
     name: "gralloc_10_usage_bits",
     module_type: "cc_defaults",
